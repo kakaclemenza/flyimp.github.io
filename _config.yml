@@ -1,0 +1,64 @@
+# Site Info
+title: flyimx
+tagline: 'flyimx exploring the world'
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://flyimp.github.io" target="_blank">@flyimp</a>.'
+baseurl: ''
+url: http://flyimp.github.io
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  toc_levels: 1..6
+  entity_output: as_char
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: rouge
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+# version: 1.0.0
+
+# About/contact
+author:
+  name: flyimp
+  description: A passionate <strong>developer</strong> and <strong>researcher</strong>, learning to be a giant.
+  gravatar: 02771af33855b8d0167a3bed3a65f0c0 # md5 hash of your email address
+  contact:
+    github:    https://github.com/flyimp
+    email:     Mailto:780586165@qq.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  # About:          
+  #  - '/about/'
+  # Github Project: 
+  #  - 'http://flyimp.github.io/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+#  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: '' # leave blank if you don't want google analytics
+disqus_short_name: '' # leave blank if you don't want disqus

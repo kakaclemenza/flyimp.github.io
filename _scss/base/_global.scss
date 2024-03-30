@@ -1,0 +1,59 @@
+@include selection {
+  background: $theme-color;
+  color: $white;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  font-family: $font-serif;
+  text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  text-rendering:optimizelegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-sans;
+  font-weight: 400;
+  color: $title-color;
+  letter-spacing: -.025rem;
+}
+
+code {
+  color: #666;
+}
+
+/* @xiaofeng back to top */
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #228abf; 
+  text-align: center;
+  border-radius: 10px;
+}
+ 
+.back-to-top i {
+  font-size: 60px; 
+  color: #ffffff;
+}
+
+.back-to-top:hover,
+.back-to-top:active,
+.back-to-top:focus {
+  color: #ffffff;
+}
