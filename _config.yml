@@ -7,7 +7,7 @@ url: http://flyimp.github.io
 logo: '/public/logo.png'
 
 # Site configurations
-gems:
+plugins:
   - jekyll-paginate
 markdown: kramdown
 kramdown:

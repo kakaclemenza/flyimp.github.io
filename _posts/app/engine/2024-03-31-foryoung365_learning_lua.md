@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lua语言学习笔记
-category: development
+category: app
 tags: [Lua]
 typora-root-url: ../../..
 ---
